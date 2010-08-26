@@ -1,0 +1,34 @@
+
+* Structure and dynamics of photodissociation regions
+** What is observed
++ Broad and narrow HI RR line components
++ Carbon RR line
++ HI emission
+
+** Physical processes
+
+*** HI RR lines from partially ionized gas
++ This supposedly gives the narrow component
++ Turns out that it is stimulated emission
+  + explained in [[http://adsabs.harvard.edu/abs/1998ApJ...501..710G][Garay et al (2008)]]
+
+
+** Models to calculate
+*** Cloudy models
+
+**** H recomb lines
+
+Try a model with sufficient levels to do the H92\alpha and H110\alpha lines
+
+*** Radiation MHD models
+**** Rescale the box size?
+** Papers
+
++ [[http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?library&libname%3DSandra%2BRR%2Blines&libid%3D453398f917][ADS private library]]
+
+*** General papers on carbon radio recomb lines
+*** Observations of particular UCHII regions
+**** GGD 14
+**** Other regions
+*** Supposed measurements of magnetic fields
+
