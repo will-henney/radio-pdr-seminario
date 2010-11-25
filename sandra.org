@@ -16,6 +16,17 @@
 ** Models to calculate
 *** Cloudy models
 
+**** Cloudy H xsec bug
+     :LOGBOOK:
+     - Note taken on [2010-08-26 Thu 16:44] \\
+       Posted to trac site
+     :END:
+  - https://www.nublado.org/ticket/170
+  - occurs on mac and linux
+  - could fix it by increasing [[file:~/Work/CLOUDY/SVN/trunk/source/sanity_check.cpp::if%20error%200%2005][this]] to 0.1
+***** Update [2010-11-24 Wed]
+Still happens - also on linux
+
 **** H recomb lines
 
 Try a model with sufficient levels to do the H92\alpha and H110\alpha lines
@@ -32,3 +43,16 @@ Try a model with sufficient levels to do the H92\alpha and H110\alpha lines
 **** Other regions
 *** Supposed measurements of magnetic fields
 
+** Fixes to Cloudy code
+
+*** TODO https://github.com/deprecated/cloudy
+I am currently initialising a git repo with a shallow copy of the SVN
+repo
+
+Then I will make a new branch and start changing things
+
+**** DONE Shallow copy of SVN trunk into a fit repo
+     CLOSED: [2010-11-25 Thu 11:43]
+**** DONE Post it on github
+     CLOSED: [2010-11-25 Thu 11:43]
+**** TODO Sync to robbie

@@ -1,0 +1,17 @@
+//
+title Test of H radio recombination lines from ionized gas
+// 
+set save prefix "hrr-test"
+hden 4
+blackbody 30000
+ionization -3
+init file "ism.ini"
+stop zone 20
+atom h-like hydrogen levels resolved 150
+print diffuse continuum  // reportedly necessary to get continua into the line list
+print line faint off // make sure all lines are printed
+save overview last ".ovr"
+save hydrogen lines ".hlin"
+save hydrogen populations ".hlin"
+save hydrogen 21cm ".21cm"
+

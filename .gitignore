@@ -1,7 +1,8 @@
 *.out
 *.21cm
 *.hlin
-*.hpop
+*.hpop*
 *.ovr
 *.html
 *~
+*.pdf
